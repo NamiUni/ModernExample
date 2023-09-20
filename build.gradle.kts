@@ -1,5 +1,3 @@
-import net.minecrell.pluginyml.bukkit.BukkitPluginDescription
-
 plugins {
     id("java")
     id("com.github.johnrengelman.shadow") version "8.1.1"
@@ -10,9 +8,7 @@ plugins {
 repositories {
     mavenLocal()
     mavenCentral()
-    maven("https://jitpack.io")
     maven("https://repo.papermc.io/repository/maven-public/")
-    maven("https://repo.extendedclip.com/content/repositories/placeholderapi/")
 }
 
 dependencies {
